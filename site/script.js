@@ -15,10 +15,14 @@ document.querySelector('main').append(yr);
 let yy=document.createElement('p');
 yy.className='yy';
 document.querySelector('main').append(yy);
+let yyy=document.createElement('p');
+yyy.className='yyy';
+document.querySelector('main').append(yyy);
 
 let number=+0;
 let number3=+70;
 let fuck=-50;
+let fuck3=-100;
 document.querySelector('main').style.cssText=`
 display:flex;
 justify-content:center;
@@ -30,12 +34,14 @@ const lol=setInterval(()=>{
   number=number+10;
   number3=number3+10;
   fuck=fuck+10;
+  fuck3=fuck3+10;
   yu.style.cssText='top: '+`${number}`+'px';
   yy.style.cssText='top: '+`${number}`+'px';
   yo.style.cssText='top: '+`${number3}`+'px';
   yl.style.cssText='top: '+`${number3}`+'px';
   yr.style.cssText='top: '+`${number3}`+'px';
   yy.style.cssText='top: '+`${fuck}`+'px;';
+  yyy.style.cssText='top: '+`${fuck3}`+'px;';
   // console.log(window.innerHeight);
   if(window.innerHeight<number){
     console.log('Go fuck yourself scum!');
@@ -44,6 +50,7 @@ const lol=setInterval(()=>{
     yl.remove();
     yr.remove();
     yy.remove();
+    yyy.remove();
     clearInterval(lol);
   }
 },300);
