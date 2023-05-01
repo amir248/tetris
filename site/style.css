@@ -5,6 +5,13 @@ body{
   background: linear-gradient(rgba(255,255,0,0.3),rgba(0,0,255,0.3));
   min-height: 100vh;
 }
+main{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width:100%;
+}
 .yu{
   display:flex;
   position:absolute;
@@ -53,4 +60,18 @@ body{
   background: red;
   top:50px;
   left:55%;
+}
+.lOl{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width:100%;
+}
+button{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width:300px;
 }

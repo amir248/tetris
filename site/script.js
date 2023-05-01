@@ -1,56 +1,69 @@
-let yu=document.createElement('p');
-yu.className='yu';
-document.querySelector('main').append(yu);
-let yo=document.createElement('p');
-yo.className='yo';
-document.querySelector('main').append(yo);
+function goy(){
+  let yu=document.createElement('p');
+  yu.className='yu';
+  document.querySelector('main').append(yu);
+  let yo=document.createElement('p');
+  yo.className='yo';
+  document.querySelector('main').append(yo);
 
-let yl=document.createElement('p');
-yl.className='yl';
-document.querySelector('main').append(yl);
-let yr=document.createElement('p');
-yr.className='yr';
-document.querySelector('main').append(yr);
+  let yl=document.createElement('p');
+  yl.className='yl';
+  document.querySelector('main').append(yl);
+  let yr=document.createElement('p');
+  yr.className='yr';
+  document.querySelector('main').append(yr);
 
-let yy=document.createElement('p');
-yy.className='yy';
-document.querySelector('main').append(yy);
-let yyy=document.createElement('p');
-yyy.className='yyy';
-document.querySelector('main').append(yyy);
+  let yy=document.createElement('p');
+  yy.className='yy';
+  document.querySelector('main').append(yy);
+  let yyy=document.createElement('p');
+  yyy.className='yyy';
+  document.querySelector('main').append(yyy);
 
-let number=+0;
-let number3=+70;
-let fuck=-50;
-let fuck3=-100;
-document.querySelector('main').style.cssText=`
-display:flex;
-justify-content:center;
-align-itemas:ceneter;
-width:100%;
-`
+  let number=+0;
+  let number3=+70;
+  let fuck=-50;
+  let fuck3=-100;
+  document.querySelector('main').style.cssText=`
+  display:flex;
+  justify-content:center;
+  align-itemas:ceneter;
+  width:100%;
+  `
+  const lol=setInterval(()=>{
+    number=number+10;
+    number3=number3+10;
+    fuck=fuck+10;
+    fuck3=fuck3+10;
+    yu.style.cssText='top: '+`${number}`+'px';
+    yy.style.cssText='top: '+`${number}`+'px';
+    yo.style.cssText='top: '+`${number3}`+'px';
+    yl.style.cssText='top: '+`${number3}`+'px';
+    yr.style.cssText='top: '+`${number3}`+'px';
+    yy.style.cssText='top: '+`${fuck}`+'px;';
+    yyy.style.cssText='top: '+`${fuck3}`+'px;';
+    // console.log(window.innerHeight);
+    if(window.innerHeight<number+50){
+      console.log('Go fuck yourself scum!');
+      yu.remove();
+      yo.remove();
+      yl.remove();
+      yr.remove();
+      yy.remove();
+      yyy.remove();
+      clearInterval(lol);
+      let lOl=document.createElement('p');
+      lOl.className='lOl';
+      lOl.innerHTML='Muscovites rats!<br> burn Moscow with a red flame!'
+      document.querySelector('main').append(lOl);
+    }
+  },300);
+}
 
-const lol=setInterval(()=>{
-  number=number+10;
-  number3=number3+10;
-  fuck=fuck+10;
-  fuck3=fuck3+10;
-  yu.style.cssText='top: '+`${number}`+'px';
-  yy.style.cssText='top: '+`${number}`+'px';
-  yo.style.cssText='top: '+`${number3}`+'px';
-  yl.style.cssText='top: '+`${number3}`+'px';
-  yr.style.cssText='top: '+`${number3}`+'px';
-  yy.style.cssText='top: '+`${fuck}`+'px;';
-  yyy.style.cssText='top: '+`${fuck3}`+'px;';
-  // console.log(window.innerHeight);
-  if(window.innerHeight<number){
-    console.log('Go fuck yourself scum!');
-    yu.remove();
-    yo.remove();
-    yl.remove();
-    yr.remove();
-    yy.remove();
-    yyy.remove();
-    clearInterval(lol);
-  }
-},300);
+let go = document.createElement('button');
+go.innerHTML=`Запустить презентацию! Доказывающую что московиткы крысы.`;
+document.querySelector('main').append(go);
+document.querySelector('button').addEventListener('click',()=>{
+  document.querySelector('main').removeChild(go);
+  goy();
+})
