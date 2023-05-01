@@ -12,3 +12,29 @@ body{
   height:50px;
   background: red;
 }
+.yo{
+  display:flex;
+  position:absolute;
+  width:50px;
+  height:50px;
+  background: red;
+  top:50px;
+}
+.yl{
+  display:flex;
+  position:absolute;
+  width:50px;
+  height:50px;
+  background: red;
+  top:50px;
+  right:55%;
+}
+.yr{
+  display:flex;
+  position:absolute;
+  width:50px;
+  height:50px;
+  background: red;
+  top:50px;
+  left:55%;
+}
