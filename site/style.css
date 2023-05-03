@@ -11,6 +11,7 @@ main{
   align-items: center;
   min-height: 100vh;
   width:100%;
+  flex-direction: column;
 }
 .yu{
   display:flex;
@@ -65,13 +66,36 @@ main{
   display:flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width:100%;
 }
 button{
+
+}
+.littleFinger{
   display:flex;
-  justify-content: center;
-  align-items: center;
-  height: 90px;
-  width:300px;
+  position:absolute;
+  width:50px;
+  height:30px;
+  background: red;
+  top:50px;
+  right:63%;
+}
+.bigFinger{
+  display:flex;
+  position:absolute;
+  width:50px;
+  height:70px;
+  background: red;
+  top:30px;
+left:63%;
+}
+.skeleton{
+  display:flex;
+  position:absolute;
+  width:270px;
+  height:30px;
+  background: red;
+  top:30px;
+/* left:33%; */
 }
