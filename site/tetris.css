@@ -1,0 +1,64 @@
+*{
+  margin:0;
+}
+main{
+  display:flex;
+  justify-content: center;
+  align-items: baseline;
+  width:100%;
+}
+.box{
+  display:flex;
+  justify-content: center;
+  align-items: baseline;
+}
+#lineZero{
+  width:10%;
+  height: 100vh;
+  background-color: orange;
+}
+#lineOne{
+  width:10%;
+  height: 100vh;
+  background-color: green;
+}
+#lineTwo{
+  width:10%;
+  height: 100vh;
+  background-color: yellow;
+}
+#lineThree{
+  width:10%;
+  height: 100vh;
+  background-color: violet;
+}
+#lineFour{
+  width:10%;
+  height: 100vh;
+  background-color: red;
+}
+#lineFive{
+  width:10%;
+  height: 100vh;
+  background-color: cyan;
+}
+#lineSix{
+  width:10%;
+  height: 100vh;
+  background-color: grey;
+}
+#lineSeven{
+  width:10%;
+  height: 100vh;
+  background-color: green;
+}
+#lineEigth{
+  width:10%;
+  height: 100vh;
+  background-color: yellow;
+}
+#lineNine{
+  width:10%;
+  height: 100vh;
+  background-color: black;
+}
