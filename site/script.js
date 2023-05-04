@@ -113,40 +113,51 @@ document.querySelector('main').append(box);
 
 let lineZero=document.createElement('p');
 lineZero.setAttribute('id','lineZero');
-document.querySelector('main').append(lineZero);
+document.querySelector('.box').append(lineZero);
 
 let lineOne=document.createElement('p');
 lineOne.setAttribute('id','lineOne');
-document.querySelector('main').append(lineOne);
+document.querySelector('.box').append(lineOne);
 
 let lineTwo=document.createElement('p');
 lineTwo.setAttribute('id','lineTwo');
-document.querySelector('main').append(lineTwo);
+document.querySelector('.box').append(lineTwo);
 
 let lineThree=document.createElement('p');
 lineThree.setAttribute('id','lineThree');
-document.querySelector('main').append(lineThree);
+document.querySelector('.box').append(lineThree);
 
 let lineFour=document.createElement('p');
 lineFour.setAttribute('id','lineFour');
-document.querySelector('main').append(lineFour);
+document.querySelector('.box').append(lineFour);
 
 let lineFive=document.createElement('p');
 lineFive.setAttribute('id','lineFive');
-document.querySelector('main').append(lineFive);
+document.querySelector('.box').append(lineFive);
 
 let lineSix=document.createElement('p');
 lineSix.setAttribute('id','lineSix');
-document.querySelector('main').append(lineSix);
+document.querySelector('.box').append(lineSix);
 
 let lineSeven=document.createElement('p');
 lineSeven.setAttribute('id','lineSeven');
-document.querySelector('main').append(lineSeven);
+document.querySelector('.box').append(lineSeven);
 
 let lineEigth=document.createElement('p');
 lineEigth.setAttribute('id','lineEigth');
-document.querySelector('main').append(lineEigth);
+document.querySelector('.box').append(lineEigth);
 
 let lineNine=document.createElement('p');
 lineNine.setAttribute('id','lineNine');
-document.querySelector('main').append(lineNine);
+document.querySelector('.box').append(lineNine);
+
+let rightBox=document.createElement('p');
+rightBox.className='rightBox';
+document.querySelector('main').append(rightBox);
+
+class t{
+  constructor(boxi){
+    this.boxi=boxi;
+  }
+
+}

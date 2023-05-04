@@ -11,6 +11,9 @@ main{
   display:flex;
   justify-content: center;
   align-items: baseline;
+  width:100%;
+  max-width: 900px;
+  height:100vh;
 }
 #lineZero{
   width:10%;
@@ -61,4 +64,13 @@ main{
   width:10%;
   height: 100vh;
   background-color: black;
+}
+@media(max-width:900px){
+  .rightBox{
+    display:none;
+  }
+}
+.rightBox{
+  width:100%;
+  /* max-width:300px; */
 }
