@@ -159,5 +159,10 @@ class t{
   constructor(boxi){
     this.boxi=boxi;
   }
+  oj(){
+    this.boxi=document.createElement('p');
+    // lineNine.setAttribute('id','lineNine');
+    document.querySelector('.box').append(this.boxi);
+  }
 
 }
