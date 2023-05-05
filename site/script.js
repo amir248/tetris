@@ -166,3 +166,7 @@ class t{
   }
 
 }
+function ok(x){
+  x=new t();
+  x.oj();
+}

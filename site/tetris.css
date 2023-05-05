@@ -6,64 +6,76 @@ main{
   justify-content: center;
   align-items: baseline;
   width:100%;
+  height:100vh;
 }
 .box{
   display:flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   width:100%;
   max-width: 900px;
   height:100vh;
+  border:1px solid grey;
 }
 #lineZero{
-  width:10%;
-  height: 100vh;
-  background-color: orange;
+  width:50px;
+  height: 700px;
+  /* background-color: orange; */
+  border:1px solid grey;
 }
 #lineOne{
-  width:10%;
-  height: 100vh;
-  background-color: green;
+  width:50px;
+  height: 700px;
+  /* background-color: green; */
+  border:1px solid grey;
 }
 #lineTwo{
-  width:10%;
-  height: 100vh;
-  background-color: yellow;
+  width:50px;
+  height: 700px;
+  /* background-color: yellow; */
+  border:1px solid grey;
 }
 #lineThree{
-  width:10%;
-  height: 100vh;
-  background-color: violet;
+  width:50px;
+  height: 700px;
+  /* background-color: violet; */
+  border:1px solid grey;
 }
 #lineFour{
-  width:10%;
-  height: 100vh;
-  background-color: red;
+  width:50px;
+  height: 700px;
+  /* background-color: red; */
+  border:1px solid grey;
 }
 #lineFive{
-  width:10%;
-  height: 100vh;
-  background-color: cyan;
+  width:50px;
+  height: 700px;
+  /* background-color: cyan; */
+  border:1px solid grey;
 }
 #lineSix{
-  width:10%;
-  height: 100vh;
-  background-color: grey;
+  width:50px;
+  height: 700px;
+  /* background-color: grey; */
+  border:1px solid grey;
 }
 #lineSeven{
-  width:10%;
-  height: 100vh;
-  background-color: green;
+  width:50px;
+  height: 700px;
+  /* background-color: green; */
+  border:1px solid grey;
 }
 #lineEigth{
-  width:10%;
-  height: 100vh;
-  background-color: yellow;
+  width:50px;
+  height: 700px;
+  /* background-color: yellow; */
+  border:1px solid grey;
 }
 #lineNine{
-  width:10%;
-  height: 100vh;
-  background-color: black;
+  width:50px;
+  height: 700px;
+  /* background-color: black; */
+  border:1px solid grey;
 }
 @media(max-width:900px){
   .rightBox{
