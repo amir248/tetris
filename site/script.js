@@ -156,15 +156,19 @@ rightBox.className='rightBox';
 document.querySelector('main').append(rightBox);
 
 class t{
-  constructor(boxi){
+  constructor(boxi,name){
     this.boxi=boxi;
   }
   oj(){
     this.boxi=document.createElement('p');
-    // lineNine.setAttribute('id','lineNine');
+    this.boxi.innerHTML=this.boxi;
     document.querySelector('.box').append(this.boxi);
   }
-
+  left(){
+    this.boxi.addEventListener('presdown',()=>{
+      console.log('press');
+    })
+  }
 }
 function ok(x){
   x=new t();
